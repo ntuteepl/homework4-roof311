@@ -3,12 +3,12 @@
 
 int main()
 {
-    int n,a=0;
-    scanf_s("%d",&n);
+    int n,a;
+    scanf("%d",&n);
     int N[n];
     for(int i=0;i<n;i++)
     {
-    scanf_s("%d",&N[i]);
+    scanf("%d",&N[i]);
 
     for(int x=2;x<=N[i];x++)
     {
@@ -29,5 +29,4 @@ int main()
     }
 
         }
-
 
